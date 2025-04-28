@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory - Подстрочный перевод</title>
+    <style>
+        body {
+            font-family: Georgia, serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        .original {
+            font-style: italic;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        .translation {
+            color: #7f8c8d;
+            border-bottom: 1px dotted #ddd;
+            padding-bottom: 3px;
+        }
+        .phrase {
+            margin-bottom: 25px;
+        }
+        .word-pair {
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+        .original-word {
+            font-size: 1.1em;
+        }
+        .translation-word {
+            font-size: 0.9em;
+            color: #e74c3c;
+        }
+        .notes {
+            font-size: 0.8em;
+            color: #95a5a6;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Memory<br>Память</h1>
+    <h2>By H. P. Lovecraft<br>Г.Ф. Лавкрафт</h2>
+    
+    <div class="phrase">
+        <p class="original">In the valley of Nis the accursed waning moon shines thinly, tearing a path for its light with feeble horns through the lethal foliage of a great upas-tree.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">In</span><br><span class="translation-word">В</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">valley</span><br><span class="translation-word">долине</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Nis</span><br><span class="translation-word">Нис</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">accursed</span><br><span class="translation-word">проклятая</span></div>
+            <div class="word-pair"><span class="original-word">waning</span><br><span class="translation-word">убывающая</span></div>
+            <div class="word-pair"><span class="original-word">moon</span><br><span class="translation-word">луна</span></div>
+            <div class="word-pair"><span class="original-word">shines</span><br><span class="translation-word">светит</span></div>
+            <div class="word-pair"><span class="original-word">thinly</span><br><span class="translation-word">тускло</span></div>
+            <div class="word-pair"><span class="original-word">tearing</span><br><span class="translation-word">прокладывая</span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">path</span><br><span class="translation-word">путь</span></div>
+            <div class="word-pair"><span class="original-word">for</span><br><span class="translation-word">для</span></div>
+            <div class="word-pair"><span class="original-word">its</span><br><span class="translation-word">своего</span></div>
+            <div class="word-pair"><span class="original-word">light</span><br><span class="translation-word">света</span></div>
+            <div class="word-pair"><span class="original-word">with</span><br><span class="translation-word">своими</span></div>
+            <div class="word-pair"><span class="original-word">feeble</span><br><span class="translation-word">слабыми</span></div>
+            <div class="word-pair"><span class="original-word">horns</span><br><span class="translation-word">рогами</span></div>
+            <div class="word-pair"><span class="original-word">through</span><br><span class="translation-word">сквозь</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">lethal</span><br><span class="translation-word">смертоносную</span></div>
+            <div class="word-pair"><span class="original-word">foliage</span><br><span class="translation-word">листву</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">great</span><br><span class="translation-word">великого</span></div>
+            <div class="word-pair"><span class="original-word">upas-tree</span><br><span class="translation-word">анчара</span></div>
+        </div>
+        <p class="notes">* <i>upas-tree</i> — анчар, мифическое ядовитое дерево</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">And within the depths of the valley, where the light reaches not, move forms not meet to be beheld.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">And</span><br><span class="translation-word">И</span></div>
+            <div class="word-pair"><span class="original-word">within</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">depths</span><br><span class="translation-word">глубинах</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">valley</span><br><span class="translation-word">долины</span></div>
+            <div class="word-pair"><span class="original-word">where</span><br><span class="translation-word">где</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">light</span><br><span class="translation-word">свет</span></div>
+            <div class="word-pair"><span class="original-word">reaches</span><br><span class="translation-word">не</span></div>
+            <div class="word-pair"><span class="original-word">not</span><br><span class="translation-word">проникает</span></div>
+            <div class="word-pair"><span class="original-word">move</span><br><span class="translation-word">движутся</span></div>
+            <div class="word-pair"><span class="original-word">forms</span><br><span class="translation-word">формы</span></div>
+            <div class="word-pair"><span class="original-word">not</span><br><span class="translation-word">не</span></div>
+            <div class="word-pair"><span class="original-word">meet</span><br><span class="translation-word">предназначенные</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word">для</span></div>
+            <div class="word-pair"><span class="original-word">be</span><br><span class="translation-word">того</span></div>
+            <div class="word-pair"><span class="original-word">beheld</span><br><span class="translation-word">чтобы их видели</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">Rank is the herbage on each slope, where evil vines and creeping plants crawl amidst the stones of ruined palaces, twining tightly about broken columns and strange monoliths, and heaving up marble pavements laid by forgotten hands.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">Rank</span><br><span class="translation-word">Густы</span></div>
+            <div class="word-pair"><span class="original-word">is</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">herbage</span><br><span class="translation-word">заросли</span></div>
+            <div class="word-pair"><span class="original-word">on</span><br><span class="translation-word">на</span></div>
+            <div class="word-pair"><span class="original-word">each</span><br><span class="translation-word">каждом</span></div>
+            <div class="word-pair"><span class="original-word">slope</span><br><span class="translation-word">склоне</span></div>
+            <div class="word-pair"><span class="original-word">where</span><br><span class="translation-word">где</span></div>
+            <div class="word-pair"><span class="original-word">evil</span><br><span class="translation-word">зловещие</span></div>
+            <div class="word-pair"><span class="original-word">vines</span><br><span class="translation-word">лианы</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">creeping</span><br><span class="translation-word">ползучие</span></div>
+            <div class="word-pair"><span class="original-word">plants</span><br><span class="translation-word">растения</span></div>
+            <div class="word-pair"><span class="original-word">crawl</span><br><span class="translation-word">ползут</span></div>
+            <div class="word-pair"><span class="original-word">amidst</span><br><span class="translation-word">среди</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">stones</span><br><span class="translation-word">камней</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">ruined</span><br><span class="translation-word">разрушенных</span></div>
+            <div class="word-pair"><span class="original-word">palaces</span><br><span class="translation-word">дворцов</span></div>
+            <div class="word-pair"><span class="original-word">twining</span><br><span class="translation-word">обвивая</span></div>
+            <div class="word-pair"><span class="original-word">tightly</span><br><span class="translation-word">плотно</span></div>
+            <div class="word-pair"><span class="original-word">about</span><br><span class="translation-word">вокруг</span></div>
+            <div class="word-pair"><span class="original-word">broken</span><br><span class="translation-word">разбитых</span></div>
+            <div class="word-pair"><span class="original-word">columns</span><br><span class="translation-word">колонн</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">strange</span><br><span class="translation-word">странных</span></div>
+            <div class="word-pair"><span class="original-word">monoliths</span><br><span class="translation-word">монолитов</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">heaving</span><br><span class="translation-word">приподнимая</span></div>
+            <div class="word-pair"><span class="original-word">up</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">marble</span><br><span class="translation-word">мраморные</span></div>
+            <div class="word-pair"><span class="original-word">pavements</span><br><span class="translation-word">мостовые</span></div>
+            <div class="word-pair"><span class="original-word">laid</span><br><span class="translation-word">уложенные</span></div>
+            <div class="word-pair"><span class="original-word">by</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">forgotten</span><br><span class="translation-word">забытыми</span></div>
+            <div class="word-pair"><span class="original-word">hands</span><br><span class="translation-word">руками</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">And in trees that grow gigantic in crumbling courtyards leap little apes, while in and out of deep treasure-vaults writhe poison serpents and scaly things without a name.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">And</span><br><span class="translation-word">И</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">trees</span><br><span class="translation-word">деревьях</span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">которые</span></div>
+            <div class="word-pair"><span class="original-word">grow</span><br><span class="translation-word">растут</span></div>
+            <div class="word-pair"><span class="original-word">gigantic</span><br><span class="translation-word">гигантскими</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">crumbling</span><br><span class="translation-word">разрушающихся</span></div>
+            <div class="word-pair"><span class="original-word">courtyards</span><br><span class="translation-word">дворах</span></div>
+            <div class="word-pair"><span class="original-word">leap</span><br><span class="translation-word">прыгают</span></div>
+            <div class="word-pair"><span class="original-word">little</span><br><span class="translation-word">маленькие</span></div>
+            <div class="word-pair"><span class="original-word">apes</span><br><span class="translation-word">обезьянки</span></div>
+            <div class="word-pair"><span class="original-word">while</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">out</span><br><span class="translation-word">из</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">deep</span><br><span class="translation-word">глубоких</span></div>
+            <div class="word-pair"><span class="original-word">treasure-vaults</span><br><span class="translation-word">сокровищниц</span></div>
+            <div class="word-pair"><span class="original-word">writhe</span><br><span class="translation-word">извиваются</span></div>
+            <div class="word-pair"><span class="original-word">poison</span><br><span class="translation-word">ядовитые</span></div>
+            <div class="word-pair"><span class="original-word">serpents</span><br><span class="translation-word">змеи</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">scaly</span><br><span class="translation-word">чешуйчатые</span></div>
+            <div class="word-pair"><span class="original-word">things</span><br><span class="translation-word">существа</span></div>
+            <div class="word-pair"><span class="original-word">without</span><br><span class="translation-word">без</span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">name</span><br><span class="translation-word">имени</span></div>
+        </div>
+        <p class="notes">* <i>treasure-vaults</i> — сокровищницы, подземные хранилища</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">Vast are the stones which sleep beneath coverlets of dank moss, and mighty were the walls from which they fell.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">Vast</span><br><span class="translation-word">Огромны</span></div>
+            <div class="word-pair"><span class="original-word">are</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">stones</span><br><span class="translation-word">камни</span></div>
+            <div class="word-pair"><span class="original-word">which</span><br><span class="translation-word">которые</span></div>
+            <div class="word-pair"><span class="original-word">sleep</span><br><span class="translation-word">спят</span></div>
+            <div class="word-pair"><span class="original-word">beneath</span><br><span class="translation-word">под</span></div>
+            <div class="word-pair"><span class="original-word">coverlets</span><br><span class="translation-word">покрывалами</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word">из</span></div>
+            <div class="word-pair"><span class="original-word">dank</span><br><span class="translation-word">сырого</span></div>
+            <div class="word-pair"><span class="original-word">moss</span><br><span class="translation-word">мха</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">mighty</span><br><span class="translation-word">могущественны</span></div>
+            <div class="word-pair"><span class="original-word">were</span><br><span class="translation-word">были</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">walls</span><br><span class="translation-word">стены</span></div>
+            <div class="word-pair"><span class="original-word">from</span><br><span class="translation-word">откуда</span></div>
+            <div class="word-pair"><span class="original-word">which</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">they</span><br><span class="translation-word">они</span></div>
+            <div class="word-pair"><span class="original-word">fell</span><br><span class="translation-word">упали</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">For all time did their builders erect them, and in sooth they yet serve nobly, for beneath them the grey toad makes his habitation.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">For</span><br><span class="translation-word">Ибо</span></div>
+            <div class="word-pair"><span class="original-word">all</span><br><span class="translation-word">всё</span></div>
+            <div class="word-pair"><span class="original-word">time</span><br><span class="translation-word">время</span></div>
+            <div class="word-pair"><span class="original-word">did</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">their</span><br><span class="translation-word">их</span></div>
+            <div class="word-pair"><span class="original-word">builders</span><br><span class="translation-word">строители</span></div>
+            <div class="word-pair"><span class="original-word">erect</span><br><span class="translation-word">возводили</span></div>
+            <div class="word-pair"><span class="original-word">them</span><br><span class="translation-word">их</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">sooth</span><br><span class="translation-word">воистину</span></div>
+            <div class="word-pair"><span class="original-word">they</span><br><span class="translation-word">они</span></div>
+            <div class="word-pair"><span class="original-word">yet</span><br><span class="translation-word">до</span></div>
+            <div class="word-pair"><span class="original-word">serve</span><br><span class="translation-word">служат</span></div>
+            <div class="word-pair"><span class="original-word">nobly</span><br><span class="translation-word">благородно</span></div>
+            <div class="word-pair"><span class="original-word">for</span><br><span class="translation-word">ибо</span></div>
+            <div class="word-pair"><span class="original-word">beneath</span><br><span class="translation-word">под</span></div>
+            <div class="word-pair"><span class="original-word">them</span><br><span class="translation-word">ними</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">grey</span><br><span class="translation-word">серый</span></div>
+            <div class="word-pair"><span class="original-word">toad</span><br><span class="translation-word">жаб</span></div>
+            <div class="word-pair"><span class="original-word">makes</span><br><span class="translation-word">устраивает</span></div>
+            <div class="word-pair"><span class="original-word">his</span><br><span class="translation-word">своё</span></div>
+            <div class="word-pair"><span class="original-word">habitation</span><br><span class="translation-word">жилище</span></div>
+        </div>
+        <p class="notes">* <i>in sooth</i> — устаревшее "воистину", "поистине"</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">At the very bottom of the valley lies the river Than, whose waters are slimy and filled with weeds.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">At</span><br><span class="translation-word">На</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">very</span><br><span class="translation-word">самом</span></div>
+            <div class="word-pair"><span class="original-word">bottom</span><br><span class="translation-word">дне</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">valley</span><br><span class="translation-word">долины</span></div>
+            <div class="word-pair"><span class="original-word">lies</span><br><span class="translation-word">лежит</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">river</span><br><span class="translation-word">река</span></div>
+            <div class="word-pair"><span class="original-word">Than</span><br><span class="translation-word">Тан</span></div>
+            <div class="word-pair"><span class="original-word">whose</span><br><span class="translation-word">чьи</span></div>
+            <div class="word-pair"><span class="original-word">waters</span><br><span class="translation-word">воды</span></div>
+            <div class="word-pair"><span class="original-word">are</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">slimy</span><br><span class="translation-word">слизисты</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">filled</span><br><span class="translation-word">наполнены</span></div>
+            <div class="word-pair"><span class="original-word">with</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">weeds</span><br><span class="translation-word">водорослями</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">From hidden springs it rises, and to subterranean grottoes it flows, so that the Daemon of the Valley knows not why its waters are red, nor whither they are bound.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">From</span><br><span class="translation-word">Из</span></div>
+            <div class="word-pair"><span class="original-word">hidden</span><br><span class="translation-word">скрытых</span></div>
+            <div class="word-pair"><span class="original-word">springs</span><br><span class="translation-word">источников</span></div>
+            <div class="word-pair"><span class="original-word">it</span><br><span class="translation-word">она</span></div>
+            <div class="word-pair"><span class="original-word">rises</span><br><span class="translation-word">поднимается</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">subterranean</span><br><span class="translation-word">подземные</span></div>
+            <div class="word-pair"><span class="original-word">grottoes</span><br><span class="translation-word">гроты</span></div>
+            <div class="word-pair"><span class="original-word">it</span><br><span class="translation-word">она</span></div>
+            <div class="word-pair"><span class="original-word">flows</span><br><span class="translation-word">течёт</span></div>
+            <div class="word-pair"><span class="original-word">so</span><br><span class="translation-word">так</span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">что</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Daemon</span><br><span class="translation-word">Демон</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Valley</span><br><span class="translation-word">Долины</span></div>
+            <div class="word-pair"><span class="original-word">knows</span><br><span class="translation-word">знает</span></div>
+            <div class="word-pair"><span class="original-word">not</span><br><span class="translation-word">не</span></div>
+            <div class="word-pair"><span class="original-word">why</span><br><span class="translation-word">почему</span></div>
+            <div class="word-pair"><span class="original-word">its</span><br><span class="translation-word">её</span></div>
+            <div class="word-pair"><span class="original-word">waters</span><br><span class="translation-word">воды</span></div>
+            <div class="word-pair"><span class="original-word">are</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">red</span><br><span class="translation-word">красны</span></div>
+            <div class="word-pair"><span class="original-word">nor</span><br><span class="translation-word">ни</span></div>
+            <div class="word-pair"><span class="original-word">whither</span><br><span class="translation-word">куда</span></div>
+            <div class="word-pair"><span class="original-word">they</span><br><span class="translation-word">они</span></div>
+            <div class="word-pair"><span class="original-word">are</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">bound</span><br><span class="translation-word">направляются</span></div>
+        </div>
+        <p class="notes">* <i>whither</i> — устаревшее "куда"</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">The Genie that haunts the moonbeams spake to the Daemon of the Valley, saying, "I am old, and forget much. Tell me the deeds and aspect and name of them who built these things of stone."</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">The</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Genie</span><br><span class="translation-word">Джинн</span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">который</span></div>
+            <div class="word-pair"><span class="original-word">haunts</span><br><span class="translation-word">обитает</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">moonbeams</span><br><span class="translation-word">лунных лучах</span></div>
+            <div class="word-pair"><span class="original-word">spake</span><br><span class="translation-word">молвил</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Daemon</span><br><span class="translation-word">Демону</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Valley</span><br><span class="translation-word">Долины</span></div>
+            <div class="word-pair"><span class="original-word">saying</span><br><span class="translation-word">сказав</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">Я</span></div>
+            <div class="word-pair"><span class="original-word">am</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">old</span><br><span class="translation-word">стар</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">forget</span><br><span class="translation-word">забываю</span></div>
+            <div class="word-pair"><span class="original-word">much</span><br><span class="translation-word">многое</span></div>
+            <div class="word-pair"><span class="original-word">Tell</span><br><span class="translation-word">Расскажи</span></div>
+            <div class="word-pair"><span class="original-word">me</span><br><span class="translation-word">мне</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word">о</span></div>
+            <div class="word-pair"><span class="original-word">deeds</span><br><span class="translation-word">делах</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">aspect</span><br><span class="translation-word">облике</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">name</span><br><span class="translation-word">имени</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">them</span><br><span class="translation-word">тех</span></div>
+            <div class="word-pair"><span class="original-word">who</span><br><span class="translation-word">кто</span></div>
+            <div class="word-pair"><span class="original-word">built</span><br><span class="translation-word">построил</span></div>
+            <div class="word-pair"><span class="original-word">these</span><br><span class="translation-word">эти</span></div>
+            <div class="word-pair"><span class="original-word">things</span><br><span class="translation-word">сооружения</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word">из</span></div>
+            <div class="word-pair"><span class="original-word">stone</span><br><span class="translation-word">камня</span></div>
+        </div>
+        <p class="notes">* <i>spake</i> — устаревшая форма "spoke" (говорил)</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">And the Daemon replied, "I am Memory, and am wise in lore of the past, but I too am old. These beings were like the waters of the river Than, not to be understood."</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">And</span><br><span class="translation-word">И</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Daemon</span><br><span class="translation-word">Демон</span></div>
+            <div class="word-pair"><span class="original-word">replied</span><br><span class="translation-word">ответил</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">Я</span></div>
+            <div class="word-pair"><span class="original-word">am</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Memory</span><br><span class="translation-word">Память</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">и</span></div>
+            <div class="word-pair"><span class="original-word">am</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">wise</span><br><span class="translation-word">мудр</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">lore</span><br><span class="translation-word">знаниях</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word">о</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">past</span><br><span class="translation-word">прошлом</span></div>
+            <div class="word-pair"><span class="original-word">but</span><br><span class="translation-word">но</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">я</span></div>
+            <div class="word-pair"><span class="original-word">too</span><br><span class="translation-word">тоже</span></div>
+            <div class="word-pair"><span class="original-word">am</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">old</span><br><span class="translation-word">стар</span></div>
+            <div class="word-pair"><span class="original-word">These</span><br><span class="translation-word">Эти</span></div>
+            <div class="word-pair"><span class="original-word">beings</span><br><span class="translation-word">существа</span></div>
+            <div class="word-pair"><span class="original-word">were</span><br><span class="translation-word">были</span></div>
+            <div class="word-pair"><span class="original-word">like</span><br><span class="translation-word">как</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">waters</span><br><span class="translation-word">воды</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">river</span><br><span class="translation-word">реки</span></div>
+            <div class="word-pair"><span class="original-word">Than</span><br><span class="translation-word">Тан</span></div>
+            <div class="word-pair"><span class="original-word">not</span><br><span class="translation-word">не</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word">поддающиеся</span></div>
+            <div class="word-pair"><span class="original-word">be</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">understood</span><br><span class="translation-word">пониманию</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">"Their deeds I recall not, for they were but of the moment. Their aspect I recall dimly, for it was like to that of the little apes in the trees."</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">Their</span><br><span class="translation-word">Их</span></div>
+            <div class="word-pair"><span class="original-word">deeds</span><br><span class="translation-word">деяния</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">я</span></div>
+            <div class="word-pair"><span class="original-word">recall</span><br><span class="translation-word">не</span></div>
+            <div class="word-pair"><span class="original-word">not</span><br><span class="translation-word">припоминаю</span></div>
+            <div class="word-pair"><span class="original-word">for</span><br><span class="translation-word">ибо</span></div>
+            <div class="word-pair"><span class="original-word">they</span><br><span class="translation-word">они</span></div>
+            <div class="word-pair"><span class="original-word">were</span><br><span class="translation-word">были</span></div>
+            <div class="word-pair"><span class="original-word">but</span><br><span class="translation-word">лишь</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">moment</span><br><span class="translation-word">мгновенны</span></div>
+            <div class="word-pair"><span class="original-word">Their</span><br><span class="translation-word">Их</span></div>
+            <div class="word-pair"><span class="original-word">aspect</span><br><span class="translation-word">облик</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">я</span></div>
+            <div class="word-pair"><span class="original-word">recall</span><br><span class="translation-word">припоминаю</span></div>
+            <div class="word-pair"><span class="original-word">dimly</span><br><span class="translation-word">смутно</span></div>
+            <div class="word-pair"><span class="original-word">for</span><br><span class="translation-word">ибо</span></div>
+            <div class="word-pair"><span class="original-word">it</span><br><span class="translation-word">он</span></div>
+            <div class="word-pair"><span class="original-word">was</span><br><span class="translation-word">был</span></div>
+            <div class="word-pair"><span class="original-word">like</span><br><span class="translation-word">подобен</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">тому</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">little</span><br><span class="translation-word">маленьких</span></div>
+            <div class="word-pair"><span class="original-word">apes</span><br><span class="translation-word">обезьян</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">trees</span><br><span class="translation-word">деревьях</span></div>
+        </div>
+    </div>
+
+    <div class="phrase">
+        <p class="original">"Their name I recall clearly, for it rhymed with that of the river. These beings of yesterday were called Man."</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">Their</span><br><span class="translation-word">Их</span></div>
+            <div class="word-pair"><span class="original-word">name</span><br><span class="translation-word">имя</span></div>
+            <div class="word-pair"><span class="original-word">I</span><br><span class="translation-word">я</span></div>
+            <div class="word-pair"><span class="original-word">recall</span><br><span class="translation-word">помню</span></div>
+            <div class="word-pair"><span class="original-word">clearly</span><br><span class="translation-word">отчётливо</span></div>
+            <div class="word-pair"><span class="original-word">for</span><br><span class="translation-word">ибо</span></div>
+            <div class="word-pair"><span class="original-word">it</span><br><span class="translation-word">оно</span></div>
+            <div class="word-pair"><span class="original-word">rhymed</span><br><span class="translation-word">рифмовалось</span></div>
+            <div class="word-pair"><span class="original-word">with</span><br><span class="translation-word">с</span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">тем</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">river</span><br><span class="translation-word">реки</span></div>
+            <div class="word-pair"><span class="original-word">These</span><br><span class="translation-word">Эти</span></div>
+            <div class="word-pair"><span class="original-word">beings</span><br><span class="translation-word">существа</span></div>
+            <div class="word-pair"><span class="original-word">of</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">yesterday</span><br><span class="translation-word">вчерашних</span></div>
+            <div class="word-pair"><span class="original-word">were</span><br><span class="translation-word">звались</span></div>
+            <div class="word-pair"><span class="original-word">called</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Man</span><br><span class="translation-word">Людьми</span></div>
+        </div>
+        <p class="notes">* В оригинале игра слов: Than (река) — Man (человек)</p>
+    </div>
+
+    <div class="phrase">
+        <p class="original">So the Genie flew back to the thin horned moon, and the Daemon looked intently at a little ape in a tree that grew in a crumbling courtyard.</p>
+        <div class="translation">
+            <div class="word-pair"><span class="original-word">So</span><br><span class="translation-word">И</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Genie</span><br><span class="translation-word">Джинн</span></div>
+            <div class="word-pair"><span class="original-word">flew</span><br><span class="translation-word">улетел</span></div>
+            <div class="word-pair"><span class="original-word">back</span><br><span class="translation-word">обратно</span></div>
+            <div class="word-pair"><span class="original-word">to</span><br><span class="translation-word">к</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">thin</span><br><span class="translation-word">тонкому</span></div>
+            <div class="word-pair"><span class="original-word">horned</span><br><span class="translation-word">рогатому</span></div>
+            <div class="word-pair"><span class="original-word">moon</span><br><span class="translation-word">месяцу</span></div>
+            <div class="word-pair"><span class="original-word">and</span><br><span class="translation-word">а</span></div>
+            <div class="word-pair"><span class="original-word">the</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">Daemon</span><br><span class="translation-word">Демон</span></div>
+            <div class="word-pair"><span class="original-word">looked</span><br><span class="translation-word">всматривался</span></div>
+            <div class="word-pair"><span class="original-word">intently</span><br><span class="translation-word">пристально</span></div>
+            <div class="word-pair"><span class="original-word">at</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">little</span><br><span class="translation-word">маленькую</span></div>
+            <div class="word-pair"><span class="original-word">ape</span><br><span class="translation-word">обезьянку</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">в</span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">tree</span><br><span class="translation-word">дереве</span></div>
+            <div class="word-pair"><span class="original-word">that</span><br><span class="translation-word">которое</span></div>
+            <div class="word-pair"><span class="original-word">grew</span><br><span class="translation-word">росло</span></div>
+            <div class="word-pair"><span class="original-word">in</span><br><span class="translation-word">во</span></div>
+            <div class="word-pair"><span class="original-word">a</span><br><span class="translation-word"></span></div>
+            <div class="word-pair"><span class="original-word">crumbling</span><br><span class="translation-word">разрушающемся</span></div>
+            <div class="word-pair"><span class="original-word">courtyard</span><br><span class="translation-word">дворе</span></div>
+        </div>
+    </div>
+    
+</body>
+</html>
